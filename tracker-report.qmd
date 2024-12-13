@@ -45,7 +45,7 @@ params <- list(
 
 ```{r}
 #| label: helpers
-format_datetime <- stamp("Sunday, May 1, 2000 22:10", locale = "C")
+format_datetime <- stamp("Κυριακή, 1 Δεκ., 2000 11:34 μμ")
 run_time <- now()
 ```
 
@@ -122,7 +122,7 @@ dat <- bind_cols(
 
 ```{r}
 #| label: plot
-#| fig-height: 5
+#| fig-height: 6
 #| fig-width: 10
 #| column: page
 pdat <- dat |>
