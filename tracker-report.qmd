@@ -218,7 +218,7 @@ reportLabFormatted <- gsub('-', ' ', reportLab)
 
 Dear all, 
 
-Please find below the latest `r reportLabFormatted` for `r lab` as of `r format_datetime(run_time)`.
+Δοκιμή εμφάνισης Ελληνικών. Please find below the latest `r reportLabFormatted` for `r lab` as of `r format_datetime(run_time)`.
 
 ```{r}
 #| label: summary_table
